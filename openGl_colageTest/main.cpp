@@ -106,6 +106,7 @@ void cursor_position_callback(GLFWwindow* window, double x, double y)
 		alpha += (GLfloat)(x - cursorX) / 10.0f;
 		beta += (GLfloat)(y - cursorY) / 10.0f;
 	}
+	this 
 	//update the cursor position
 	cursorX = (int)x;
 	cursorY = (int)y;
